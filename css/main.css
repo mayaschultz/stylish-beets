@@ -14,21 +14,24 @@ img {
 }
 
 h1, h2 {
-  color: #5d8432;
-  text-transform: uppercase;
-  font-family: "Patua One", sans-serif;
+  color: #3f1622;
+  text-transform: inherit;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
 }
 
 figcaption {
+  color: #222;
   font-size: .8rem;
   font-style: italic;
   text-align: center;
 }
 
 nav {
+  color: #8f2440;
   font-size: 1.125rem;
   font-weight: bold;
-  font-family: "Patua One", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 nav ol {
