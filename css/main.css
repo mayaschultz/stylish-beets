@@ -72,6 +72,14 @@ blockquote p strong {
   font-weight: normal;
 }
 
-h2 > ul {
+main h2 ol {
   list-style-type: lower-greek;
+}
+
+.serving {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
 }
