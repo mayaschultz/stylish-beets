@@ -13,6 +13,10 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
 h1, h2 {
   color: #3f1622;
   text-transform: inherit;
@@ -29,7 +33,7 @@ figcaption {
 
 nav {
   color: #8f2440;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
 }
@@ -48,15 +52,40 @@ ol li {
   list-style-type: none;
 }
 
+b {
+  font-weight: bold;
+}
+
+blockquote p strong {
+  font-weight: normal;
+}
+
+main p,
+main li,
+aside li {
+  font-size: .8rem;
+}
+
+main ol li {
+  list-style-type: lower-greek;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside > ul {
+  list-style-type: circle;
+}
+
+footer {
+  font-size: .8rem;
+}
+
 .time {
   font-weight: bold;
   font-family: "PT Serif", serif;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-b {
-  font-weight: bold;
+  font-size: 1.125rem;
 }
 
 .quote {
@@ -71,27 +100,7 @@ b {
   display: inline;
 }
 
-blockquote p strong {
-  font-weight: normal;
-}
-
-main ol li {
-  list-style-type: lower-greek;
-}
-
 .serving {
   font-style: italic;
-}
-
-dl dt {
-  font-weight: bold;
-}
-
-aside > ul {
-  font-size: .8rem;
-  list-style-type: circle;
-}
-
-footer {
-  font-size: .8rem;
+  font-size: 1.125rem;
 }
